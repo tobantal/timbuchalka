@@ -3,8 +3,9 @@ package com.timbuchalka.Banking;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -30,20 +31,18 @@ public class BankAccountTestParameterized {
 
     @Parameterized.Parameters
     public static Collection<Object[]> testConditions() {
-        return Arrays.asList(new Object[][] {
-                {100.00, true, 1100.00},
-                {200.00, true, 1200.00},
-                {325.14, true, 1325.14},
-                {489.33, true, 1489.33},
-                {1000.00, true, 2000.00}
-        });
-
+        List<Object[]> list = new ArrayList<>();
+        list.add(new Object[]{100.00, true, 1100.00});
+        list.add(new Object[]{200.00, true, 1200.00});
+        list.add(new Object[]{325.14, true, 1325.14});
+        list.add(new Object[]{1000.00, true, 2000.00});
+        return list;
     }
 
     @org.junit.Test
     public void deposit() throws Exception {
         account.deposit(amount, branch);
-        assertEquals(expected, account.getBalance(), .01);
+        assertEquals(expected, account.getBalance(), 0.01);
     }
 
 }
