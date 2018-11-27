@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="983dae90-8dc6-4872-97e7-8cd97098c7f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/timbuchalka/Utilities/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/timbuchalka/Utilities/UtilitiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/timbuchalka/Utilities/UtilitiesTestParameterized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/timbuchalka/problems/NumberPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/timbuchalka/problems/NumberPalindromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/timbuchalka/Banking/BankAccountTestParameterized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/timbuchalka/Banking/BankAccountTestParameterized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/timbuchalka/Banking/BankAccountTestParameterized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/timbuchalka/Banking/BankAccountTestParameterized.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,23 +40,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/timbuchalka/Utilities/Utilities.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/timbuchalka/problems/NumberPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-              <folding>
-                <element signature="e#1744#1745#0" expanded="true" />
-                <element signature="e#1786#1787#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/timbuchalka/Utilities/UtilitiesTestParameterized.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/timbuchalka/problems/NumberPalindromeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,14 +83,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/timbuchalka/Utilities/UtilitiesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/timbuchalka/Banking/BankAccountTestParameterized.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/timbuchalka/Utilities/UtilitiesTestParameterized.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/timbuchalka/problems/NumberPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/timbuchalka/problems/NumberPalindromeTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="316" />
-    <option name="y" value="76" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="290" />
+    <option name="y" value="74" />
     <option name="width" value="1302" />
-    <option name="height" value="875" />
+    <option name="height" value="885" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -159,15 +154,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="timbuchalka" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="EDUCATION" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDUCATION" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="timbuchalka" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -179,7 +165,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543308221827" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543310426545" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../USOI5X" />
@@ -192,6 +178,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.timbuchalka.problems" />
       <recent name="com.timbuchalka.Utilities" />
       <recent name="com.timbuchalka.Banking" />
     </key>
@@ -214,7 +201,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitiesTestParameterized">
+  <component name="RunManager" selected="JUnit.NumberPalindromeTest.isPalindromeTest">
+    <configuration name="NumberPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.timbuchalka.problems.NumberPalindrome" />
+      <module name="com.timbuchalka.EDUCATION.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.timbuchalka.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberPalindromeTest.isPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.timbuchalka.EDUCATION.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.timbuchalka.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.timbuchalka.problems" />
+      <option name="MAIN_CLASS_NAME" value="com.timbuchalka.problems.NumberPalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindromeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UtilitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.timbuchalka.EDUCATION.test" />
       <extension name="coverage">
@@ -243,22 +259,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitiesTest.converter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.timbuchalka.EDUCATION.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.timbuchalka.Utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.timbuchalka.Utilities" />
-      <option name="MAIN_CLASS_NAME" value="com.timbuchalka.Utilities.UtilitiesTest" />
-      <option name="METHOD_NAME" value="converter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UtilitiesTest.converter_arithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.timbuchalka.EDUCATION.test" />
       <extension name="coverage">
@@ -275,29 +275,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitiesTest.nullIfOddLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.timbuchalka.EDUCATION.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.timbuchalka.Utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.timbuchalka.Utilities" />
-      <option name="MAIN_CLASS_NAME" value="com.timbuchalka.Utilities.UtilitiesTest" />
-      <option name="METHOD_NAME" value="nullIfOddLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberPalindromeTest.isPalindromeTest" />
+        <item itemvalue="Application.NumberPalindrome" />
         <item itemvalue="JUnit.UtilitiesTestParameterized" />
         <item itemvalue="JUnit.UtilitiesTest" />
         <item itemvalue="JUnit.UtilitiesTest.converter_arithmeticException" />
-        <item itemvalue="JUnit.UtilitiesTest.converter" />
-        <item itemvalue="JUnit.UtilitiesTest.nullIfOddLength" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +301,11 @@
       <workItem from="1543296953944" duration="116000" />
       <workItem from="1543297113009" duration="6000" />
       <workItem from="1543297413070" duration="1205000" />
-      <workItem from="1543298672037" duration="7511000" />
+      <workItem from="1543298672037" duration="9243000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilitiesTest_removePairs - 2018.11.27 at 14h 38m 45s.xml">
-      <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UtilitiesTest_removePairs - 2018.11.27 at 14h 39m 25s.xml">
       <configuration name="UtilitiesTest.removePairs" configurationId="JUnit" />
     </history-entry>
@@ -352,15 +333,18 @@
     <history-entry file="UtilitiesTestParameterized - 2018.11.27 at 15h 43m 29s.xml">
       <configuration name="UtilitiesTestParameterized" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UtilitiesTestParameterized - 2018.11.27 at 15h 43m 45s.xml">
+      <configuration name="UtilitiesTestParameterized" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23907000" />
+    <option name="totallyTimeSpent" value="25639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="59" width="1302" height="875" extended-state="0" />
+    <frame x="342" y="42" width="1302" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2962963" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2962963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -369,13 +353,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38140163" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38140163" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38679245" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3287841" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -498,8 +482,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/timbuchalka/Utilities/UtilitiesTestParameterized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="561">
           <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/timbuchalka/problems/NumberPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/timbuchalka/problems/NumberPalindromeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
